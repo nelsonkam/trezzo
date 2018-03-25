@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute pin-b pin-r">
+  <div class="">
     <div class="p-4">
       <transition name="slide" enter-active-class="slideInUp" leave-active-class="fadeOutDown" mode="out-in">
         <button v-if="!open" @click="open = !open" class="text-white py-3 px-4 shadow rounded-full text" style="background-color: #2962FF;">Have feedback ?</button>
