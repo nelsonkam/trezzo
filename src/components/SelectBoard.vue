@@ -62,6 +62,7 @@ export default {
   },
   methods: {
     connectToTrello() {
+      localStorage.removeItem('trello_token')
       window.Trello.authorize({
         type: "popup",
         name: "Trezzo",

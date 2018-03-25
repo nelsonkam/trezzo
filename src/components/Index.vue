@@ -24,7 +24,7 @@
         <h2 class="text-center text-4xl font-bold text-black leading-normal">How does it work ?</h2>
         <p class="text-center text-2xl max-w-lg mt-2">Trezzo provides a widget that connects to a Trello board and creates a new card each time feedback is sent. </p>
         <div class="flex flex-col items-center" style="margin: 4rem 0;">
-          <p class="text-center text-xl max-w-sm">Try it now, click on the button below then take a look at this Trello board after sending. </p>
+          <p class="text-center text-xl max-w-sm">Try it now, click on the button below then take a look at this <a target="_blank" href="https://trello.com/b/ImDEGZs6">Trello board</a> after sending. </p>
           <trezzo-widget api-key="demo-key" style="margin-top: 4rem;"></trezzo-widget>
         </div>
       </div>
